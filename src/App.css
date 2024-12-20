@@ -262,7 +262,7 @@ button {background: none; padding: 0 ; margin: 0; border: none;}
     .section1 .section1_inner .video_box {height: 34.7222vw;}
     .section1 .section1_inner .video_box_inner.on {height: 34.7222vw;}
     .section3 .section3_inner .project_box .list .project_info .project_info_text .info {font-size: 2.7778vw;}
-
+    .section3 .section3_inner .project_box .list a video {display: none;}
 
 
 

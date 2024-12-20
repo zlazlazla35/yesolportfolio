@@ -269,7 +269,7 @@ function App() {
                       </div>
                       <div className={`video_box`}>
                         <div className={`video_box_inner ${visual}`}>
-                          <video muted autoPlay loop>
+                          <video autoPlay={true} loop={true} muted={true} playsInline={true}>
                             <source src="/videos/visual.mp4" type="video/mp4" />
                           </video>
                         </div>
@@ -676,7 +676,7 @@ function App() {
                   <div className='section6'>
                     <div className='section6_inner'>
                       <div className='video_box'>
-                        <video muted autoPlay loop>
+                        <video autoPlay={true} loop={true} muted={true} playsInline={true}>
                           <source src="/videos/visual.mp4" type="video/mp4" />
                         </video>
                         <div className='text_box w1610'>
@@ -729,10 +729,13 @@ function TestScrollTrigger({ useGSAP }) {
         <div className='list list1' style={{
           width: "90%"
         }}>
-          <NavLink to={'/'} target='_blank'>
+          <NavLink to={'http://ec2-52-78-53-231.ap-northeast-2.compute.amazonaws.com:3001/'} target='_blank'>
             <video muted autoPlay loop>
               <source src="/videos/project1.mp4" type="video/mp4" />
             </video>
+            <div className="img_box">
+              <img src={`${process.env.PUBLIC_URL}/image/anyjoa_project.png`} />
+            </div>
             <div className='project_info'>
               <div className='project_info_text'>
                 <h2 className='title'>AENIJOA<span>(애니메이션 추천)</span></h2>
@@ -758,6 +761,9 @@ function TestScrollTrigger({ useGSAP }) {
             <video muted autoPlay loop>
               <source src="/videos/project2.mp4" type="video/mp4" />
             </video>
+            <div className="img_box">
+              <img src={`${process.env.PUBLIC_URL}/image/weather_project.png`} />
+            </div>
             <div className='project_info'>
               <div className='project_info_text'>
                 <h2 className='title'>Weather<span>(현재 날씨, 예보 확인)</span></h2>
@@ -769,7 +775,7 @@ function TestScrollTrigger({ useGSAP }) {
                   <li>#axois</li>
                 </ul>
                 <p className='info'>
-                  OpenWeather API를 활용하여 3일 치의 날씨 예보, <br/>
+                  OpenWeather API를 활용하여 3일 치의 날씨 예보, <br />
                   날씨에 따른 간단한 알림 글을 제공하는 사이트입니다.
                 </p>
               </div>
@@ -783,6 +789,9 @@ function TestScrollTrigger({ useGSAP }) {
             <video muted autoPlay loop>
               <source src="/videos/project3.mp4" type="video/mp4" />
             </video>
+            <div className="img_box">
+              <img src={`${process.env.PUBLIC_URL}/image/todolist_project.png`} />
+            </div>
             <div className='project_info'>
               <div className='project_info_text'>
                 <h2 className='title'>To Do List<span>(일과 정리)</span></h2>
@@ -806,6 +815,9 @@ function TestScrollTrigger({ useGSAP }) {
             <video muted autoPlay loop>
               <source src="/videos/project4.mp4" type="video/mp4" />
             </video>
+            <div className="img_box">
+              <img src={`${process.env.PUBLIC_URL}/image/calculator_project.png`} />
+            </div>
             <div className='project_info'>
               <div className='project_info_text'>
                 <h2 className='title'>Calculator<span>(계산 기능)</span></h2>
@@ -824,7 +836,7 @@ function TestScrollTrigger({ useGSAP }) {
         <div className='list list5' style={{
           width: "90%"
         }}>
-          <NavLink to={'/'} onClick={()=>{ alert('현재 개발 중 입니다.') }}>
+          <NavLink to={'/'} onClick={() => { alert('현재 개발 중 입니다.') }}>
             <div className="img_box">
               <img src={`${process.env.PUBLIC_URL}/image/cyworld_project.png`} />
             </div>
@@ -838,9 +850,9 @@ function TestScrollTrigger({ useGSAP }) {
                   <li>#css</li>
                 </ul>
                 <p className='info'>
-                OAuth + session 방식과 아이디/비번 + JWT를 활용하여<br/>
-                회원가입 기능과 각 홈페이지에 방문하여<br/> 
-                댓글, 사진 등을 올릴 수 있는 <br/> 게시판 기능 구현 홈페이지 현재 개발 중 입니다.
+                  OAuth + session 방식과 아이디/비번 + JWT를 활용하여<br />
+                  회원가입 기능과 각 홈페이지에 방문하여<br />
+                  댓글, 사진 등을 올릴 수 있는 <br /> 게시판 기능 구현 홈페이지 현재 개발 중 입니다.
                 </p>
               </div>
             </div>
