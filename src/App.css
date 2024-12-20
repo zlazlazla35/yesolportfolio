@@ -103,7 +103,7 @@ button {background: none; padding: 0 ; margin: 0; border: none;}
 
 
 
-.section3 {width: 100%; height: 400vh;}
+.section3 {width: 100%; height: 500vh;}
 .section3 .section3_inner {width: 100%; margin: 0 auto; box-sizing: border-box; padding-top: 20%; max-width: 1580px; margin: 0 auto;}
 .section3 .section3_inner .title_txt {font-size: 72px; font-weight: 800; width: 100%; text-align: center; margin-bottom: 44px;}
 .section3 .section3_inner .sub_txt {font-size: 22px; font-weight: 800; width: 100%; text-align: center; margin-bottom: 100px;}
@@ -112,6 +112,8 @@ button {background: none; padding: 0 ; margin: 0; border: none;}
 .section3 .section3_inner .project_box .list a {width: 100%; display: block;}
 .section3 .section3_inner .project_box .list a video {width: 100%; height: 100%; object-fit: cover;}
 .section3 .section3_inner .project_box .list img {width: 100%;}
+.section3 .section3_inner .project_box .list a .img_box {width: 100%; height: 100%;}
+.section3 .section3_inner .project_box .list a .img_box img {display: block; width: 100%; height: 100%; object-fit: cover;}
 
 .section3 .section3_inner .project_box .list .project_info {position: absolute; left: 0; top: 0; background: rgba(15, 15, 15, 0.8); width: 100%; height: 100%; transition: all 0.3s;}
 .section3 .section3_inner .project_box .list .project_info .project_info_text {display: inline-block; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); text-align: center; overflow: hidden; transition: all 0.3s;}

@@ -270,7 +270,7 @@ function App() {
                       <div className={`video_box`}>
                         <div className={`video_box_inner ${visual}`}>
                           <video muted autoPlay loop>
-                            <source src="/videos/visual.webm" type="video/mp4" />
+                            <source src="/videos/visual.mp4" type="video/mp4" />
                           </video>
                         </div>
                       </div>
@@ -417,9 +417,9 @@ function App() {
                                   duration: 2,
                                 }}
                               >
-                                <p>1년동안 투입되어 진행한 홈페이지입니다.</p>
-                                <p>PC, Mobile, 유지보수, 웹기반 어플리케이션 등 다양한 경험을 통해</p>
-                                <p>코드 제작 외 다른 사람의 코드 수정, 업그레이 작업 등을 진행해왔습니다.</p>
+                                <p>1년 동안 투입되어 진행한 홈페이지입니다.</p>
+                                <p>PC, Mobile, 유지 보수, 웹 기반 어플리케이션 등 다양한 경험을 통해</p>
+                                <p>코드 제작 외 다른 사람의 코드 수정, 업그레이드 작업 등을 진행해왔습니다.</p>
                               </motion.div>
                             </div>
                           </NavLink>
@@ -677,7 +677,7 @@ function App() {
                     <div className='section6_inner'>
                       <div className='video_box'>
                         <video muted autoPlay loop>
-                          <source src="/videos/visual.webm" type="video/mp4" />
+                          <source src="/videos/visual.mp4" type="video/mp4" />
                         </video>
                         <div className='text_box w1610'>
                           <h2 className='name'>KIM-YESOL</h2>
@@ -731,7 +731,7 @@ function TestScrollTrigger({ useGSAP }) {
         }}>
           <NavLink to={'/'} target='_blank'>
             <video muted autoPlay loop>
-              <source src="/videos/project1.webm" type="video/mp4" />
+              <source src="/videos/project1.mp4" type="video/mp4" />
             </video>
             <div className='project_info'>
               <div className='project_info_text'>
@@ -745,9 +745,7 @@ function TestScrollTrigger({ useGSAP }) {
                   <li>#Local Storage</li>
                 </ul>
                 <p className='info'>
-                  기본적인 데이터는 JSON 데이터를 통해 데이터 바인딩을 진행하였으며,<br />
-                  Local Storage를 통해 유저가 클릭한 콘텐츠 메인에 노출, 찜하기, 찜하기 취소 등을 구현하였습니다.<br />
-                  태그 검색은 유저가 클릭한 필터 내용과 완벽하게 일치 시 콘텐츠가 노출이 되도록 구현하였습니다.
+                  JSON 데이터 형식과 빠른 데이터 검색에 중점을 둔 사이트입니다.<br />
                 </p>
               </div>
             </div>
@@ -756,9 +754,9 @@ function TestScrollTrigger({ useGSAP }) {
         <div className='list list2' style={{
           width: "90%"
         }}>
-          <NavLink to={'/'} target='_blank'>
+          <NavLink to={'https://zlazlazla35.github.io/'} target='_blank'>
             <video muted autoPlay loop>
-              <source src="/videos/project2.webm" type="video/mp4" />
+              <source src="/videos/project2.mp4" type="video/mp4" />
             </video>
             <div className='project_info'>
               <div className='project_info_text'>
@@ -771,8 +769,8 @@ function TestScrollTrigger({ useGSAP }) {
                   <li>#axois</li>
                 </ul>
                 <p className='info'>
-                  Geolocation API를 통해 현재 위치를 가져온 후<br />
-                  OpenWeather API를 활용해 현재 날씨와 3일 치의 날씨 예보를 볼 수 있는 기능을 구현하였습니다.
+                  OpenWeather API를 활용하여 3일 치의 날씨 예보, <br/>
+                  날씨에 따른 간단한 알림 글을 제공하는 사이트입니다.
                 </p>
               </div>
             </div>
@@ -783,7 +781,7 @@ function TestScrollTrigger({ useGSAP }) {
         }}>
           <NavLink to={'http://zlazlazla35.dothome.co.kr/'} target='_blank'>
             <video muted autoPlay loop>
-              <source src="/videos/project3.webm" type="video/mp4" />
+              <source src="/videos/project3.mp4" type="video/mp4" />
             </video>
             <div className='project_info'>
               <div className='project_info_text'>
@@ -795,7 +793,7 @@ function TestScrollTrigger({ useGSAP }) {
                   <li>#Local Storage</li>
                 </ul>
                 <p className='info'>
-                  Local Storage를 통해 유저가 입력한 내용, 완료 여부를 저장 후 내용을 보여줍니다.
+                  일과를 정리하는 사이트입니다.
                 </p>
               </div>
             </div>
@@ -804,9 +802,9 @@ function TestScrollTrigger({ useGSAP }) {
         <div className='list list4' style={{
           width: "90%"
         }}>
-          <NavLink to={'/'} target='_blank'>
+          <NavLink to={'https://zlazlazla35.github.io/calculator/'} target='_blank'>
             <video muted autoPlay loop>
-              <source src="/videos/project4.webm" type="video/mp4" />
+              <source src="/videos/project4.mp4" type="video/mp4" />
             </video>
             <div className='project_info'>
               <div className='project_info_text'>
@@ -814,9 +812,35 @@ function TestScrollTrigger({ useGSAP }) {
                 <ul className='tagList'>
                   <li>#React</li>
                   <li>#css</li>
+                  <li>#Styled Component</li>
                 </ul>
                 <p className='info'>
                   useState와 switch를 사용해 계산 기능을 구현하였습니다.
+                </p>
+              </div>
+            </div>
+          </NavLink>
+        </div>
+        <div className='list list5' style={{
+          width: "90%"
+        }}>
+          <NavLink to={'/'} onClick={()=>{ alert('현재 개발 중 입니다.') }}>
+            <div className="img_box">
+              <img src={`${process.env.PUBLIC_URL}/image/cyworld_project.png`} />
+            </div>
+            <div className='project_info'>
+              <div className='project_info_text'>
+                <h2 className='title'>Cyworld<span>(게시판 기능)</span></h2>
+                <ul className='tagList'>
+                  <li>#Next.js</li>
+                  <li>#MongoDB</li>
+                  <li>#Next-Auth</li>
+                  <li>#css</li>
+                </ul>
+                <p className='info'>
+                OAuth + session 방식과 아이디/비번 + JWT를 활용하여<br/>
+                회원가입 기능과 각 홈페이지에 방문하여<br/> 
+                댓글, 사진 등을 올릴 수 있는 <br/> 게시판 기능 구현 홈페이지 현재 개발 중 입니다.
                 </p>
               </div>
             </div>

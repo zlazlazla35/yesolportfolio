@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route element={<App/>} path="/"></Route>
+        <Route element={<App/>} path="/*"></Route>
       </Routes>
     </BrowserRouter>
 );
