@@ -37,7 +37,7 @@ const TextAni2 = styled.h2`
 
 
 function App() {
-  const [mode, setMode] = useState(true);
+  const [mode, setMode] = useState(false);
   const [heaer, setHeader] = useState('');
   const [isHovering, setIsHovering] = useState(false)
   const [isHovering2, setIsHovering2] = useState(false)
