@@ -733,7 +733,7 @@ function TestScrollTrigger({ useGSAP }) {
             <video muted autoPlay loop>
               <source src="/videos/project1.mp4" type="video/mp4" />
             </video>
-            <div className="img_box">
+            <div className="img_box mo">
               <img src={`${process.env.PUBLIC_URL}/image/anyjoa_project.png`} />
             </div>
             <div className='project_info'>
@@ -761,7 +761,7 @@ function TestScrollTrigger({ useGSAP }) {
             <video muted autoPlay loop>
               <source src="/videos/project2.mp4" type="video/mp4" />
             </video>
-            <div className="img_box">
+            <div className="img_box mo">
               <img src={`${process.env.PUBLIC_URL}/image/weather_project.png`} />
             </div>
             <div className='project_info'>
@@ -789,7 +789,7 @@ function TestScrollTrigger({ useGSAP }) {
             <video muted autoPlay loop>
               <source src="/videos/project3.mp4" type="video/mp4" />
             </video>
-            <div className="img_box">
+            <div className="img_box mo">
               <img src={`${process.env.PUBLIC_URL}/image/todolist_project.png`} />
             </div>
             <div className='project_info'>
@@ -815,7 +815,7 @@ function TestScrollTrigger({ useGSAP }) {
             <video muted autoPlay loop>
               <source src="/videos/project4.mp4" type="video/mp4" />
             </video>
-            <div className="img_box">
+            <div className="img_box mo">
               <img src={`${process.env.PUBLIC_URL}/image/calculator_project.png`} />
             </div>
             <div className='project_info'>
