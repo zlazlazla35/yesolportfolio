@@ -536,7 +536,7 @@ function App() {
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink to={'https://lws3.mycafe24.com/'} target='_blank'>
+                          <NavLink to={'https://nptiglobal.cafe24.com/user/index.php'} target='_blank'>
                             <div className='web_site_list'>
                               <div className='imgBox'>
                                 <img src={`${process.env.PUBLIC_URL}/image/webSite6.png`} alt="" />
@@ -550,13 +550,14 @@ function App() {
                                     duration: 1.2,
                                   }}
                                 >
-                                  <h2 className='siteName'>애듀바이블</h2>
+                                  <h2 className='siteName'>스몰빅</h2>
                                 </motion.div>
                               </div>
                               <div className='web_site_bottom'>
                                 <div className='info_list'>
-                                  <span>퍼블리싱 100%</span>
-                                  <span>반응형</span>
+                                  <span>리뉴얼</span>
+                                  <span>PC</span>
+                                  <span>적응형</span>
                                 </div>
                               </div>
                             </div>
@@ -665,6 +666,7 @@ function App() {
                                 <div className='info_list'>
                                   <span>퍼블리싱 100%</span>
                                   <span>랜딩페이지</span>
+                                  <span>반응형</span>
                                 </div>
                               </div>
                             </div>
